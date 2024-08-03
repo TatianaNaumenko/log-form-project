@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <script src="./scripts/script.js" defer></script>
+   <title>form</title>
+</head>
+
+<body>
+
+   <section class="main-wrapper">
+      <div class="container">
+         <div id="popap">
+            <div class="close">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                     d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
+               </svg>
+            </div>
+            <p id="message-text">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</p>
+            <div class="button"><input id="btn-in-popap" type="button" value="OK"></div>
+         </div>
+         <header class="header"><a href="#"><img src="./images/homeWorks.png" alt="homework logo"></a></header>
+
+         <div class="content">
+            <div class="content-left">
+               <div class="content-left__title">Get your free account</div>
+               <div class="content-left__text">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free
+                  Forever) anytime.</div>
+               <form action="#" class="form" method="post">
+                  <div class="full-name"><span>Full Name</span><input type="text" required></div>
+                  <div class="username"><span>Your username</span><input type="text" required></div>
+                  <div class="mail"><span>E-mail</span><input type="text" required></div>
+                  <div class="password"> <span>Password</span><input type="password"></div>
+                  <div class="password-repeat"> <span>Repeat Password</span><input type="password"></div>
+                  <div class="agreement">
+                     <label for="check">
+                        <input type="checkbox" id="check">
+                        Agree to our Terms of Service and Privacy Statement
+                     </label>
+                  </div>
+                  <div class="button"><input id="btn" type="button" value="Sign Up"></div>
+               </form>
+
+               <div class="already-have-account"><a href="#">Already have an account?</a></div>
+
+            </div>
+            <div class="content-right">
+               <div class="content-right__image"><img src="./images/rocket.png" alt="ракета стартует с дисплея"></div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+</body>
+
+</html>
