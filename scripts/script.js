@@ -23,7 +23,6 @@ function noPunctMarks(event) {
 }
 
 userName.addEventListener("keydown", noPunctMarks);
-// это проверка на валидность адреса, я люблю регулярки но читала они много жрут ресурса
 let mailInp = document.querySelector(".mail input");
 function isValidEmail() {
   let regExp = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -144,3 +143,5 @@ function welcomeUser() {
   }
   window.location.reload()
 }
+// это комментарий для задания
+console.log('hello!!!!');
