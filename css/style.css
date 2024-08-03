@@ -11,7 +11,7 @@
 
 body {
   font-family: Nunito, sans-serif;
-  background-image: linear-gradient(to right, #fffffb 50%, #f8f8fa 50%);
+  background-image: linear-gradient(to right, #563f4c 50%, #991285 50%);
 }
 
 .main-wrapper {
@@ -144,7 +144,7 @@ body {
 .button input[type="button"] {
   width: 210px;
   height: 70px;
-  background: #dd3142;
+  background: #2d1678;
   border-radius: 40px;
   font-weight: 700;
   font-size: 20px;
