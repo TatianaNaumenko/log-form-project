@@ -144,3 +144,4 @@ function welcomeUser() {
   }
   window.location.reload()
 }
+console.log('Это другое сообщение');
