@@ -31,7 +31,7 @@ body {
   justify-content: space-around;
   width: 600px;
   height: 316px;
-  background-color: #302929e8;
+  background-color: #3a1f98e8;
   border-radius: 25px;
   top: 0;
   left: calc(50% - 300px);
@@ -76,10 +76,10 @@ body {
   height: 56px;
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 56px;
   line-height: 49px;
-  color: #000000;
-  margin-bottom: 7px;
+  color: #4e4848;
+  margin-bottom: 57px;
 }
 
 .content-left__text {
@@ -92,7 +92,7 @@ body {
 }
 
 .form > div {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   position: relative;
 }
 
@@ -113,7 +113,7 @@ body {
 .form > div > span {
   font-weight: 700;
   font-size: 16px;
-  color: #c6c6c4;
+  color: #cccc26;
   position: absolute;
   top: 0;
   left: 0;
@@ -144,7 +144,8 @@ body {
 .button input[type="button"] {
   width: 210px;
   height: 70px;
-  background: #dd3142;
+  
+  background: #df7417;
   border-radius: 40px;
   font-weight: 700;
   font-size: 20px;
