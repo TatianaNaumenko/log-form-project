@@ -144,3 +144,5 @@ function welcomeUser() {
   }
   window.location.reload()
 }
+
+console.log('Привет! Я изучаю git и GitHub');
