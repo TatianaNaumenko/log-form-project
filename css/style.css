@@ -8,7 +8,7 @@
   font-family: Nunito;
   src: url(../fonts/Nunito-VariableFont_wght.ttf);
 }
-git
+
 body {
   font-family: Nunito, sans-serif;
   background-image: linear-gradient(to right, #fffffb 50%, #f8f8fa 50%);
@@ -78,7 +78,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 49px;
-  color: #000000;
+  color: #4e4848;
   margin-bottom: 7px;
 }
 
