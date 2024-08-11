@@ -8,7 +8,7 @@
   font-family: Nunito;
   src: url(../fonts/Nunito-VariableFont_wght.ttf);
 }
-
+git
 body {
   font-family: Nunito, sans-serif;
   background-image: linear-gradient(to right, #fffffb 50%, #f8f8fa 50%);
@@ -31,7 +31,7 @@ body {
   justify-content: space-around;
   width: 600px;
   height: 316px;
-  background-color: #302929e8;
+  background-color: #3a1f98e8;
   border-radius: 25px;
   top: 0;
   left: calc(50% - 300px);
