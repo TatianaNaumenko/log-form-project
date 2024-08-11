@@ -144,7 +144,8 @@ body {
 .button input[type="button"] {
   width: 210px;
   height: 70px;
-  background: #dd3142;
+  
+  background: #df7417;
   border-radius: 40px;
   font-weight: 700;
   font-size: 20px;
